@@ -1,0 +1,99 @@
+/* Search Section Styling */
+.searchSection {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 30px;
+}
+
+.searchContainer {
+    position: relative;
+    width: 40%;
+}
+
+.searchContainer input {
+    width: 100%;
+    padding: 10px 40px 10px 20px; /* Extra space on the left for the icon */
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.searchContainer input:focus {
+    border-color: rgb(9, 182, 32); /* Highlight border on focus */
+    outline: none;
+}
+
+.searchContainer input:hover {
+    border-color: rgb(73, 255, 1);
+}
+
+/* Slogan Section */
+.sloganSection {
+    background-color: rgba(55, 174, 8, 0.725);
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.sloganSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.sloganSection p {
+    font-size: 1.2rem;
+}
+
+/* Cards Section Styling */
+.cardsSection {
+    display: flex;
+    flex-direction: column; /* Align cards vertically */
+    align-items: center;    /* Center the cards */
+    padding: 20px 0;
+    gap: 20px;              /* Add some space between cards */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid rgb(9, 182, 32); /* Green border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 80%;             /* Increased width of the card */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    background-color: #f0f9f0; /* Light background on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02); /* Slightly increase the card size on hover */
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: rgb(9, 182, 32); /* Green title */
+    font-weight: bold; /* Bold title */
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #555; /* Darker text for better readability */
+}
+
+.card button {
+    margin: 10px;
+    background-color: rgb(9, 182, 32);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card button:hover {
+    background-color: hsl(131, 96%, 51%);
+    transform: scale(1.05); /* Slightly increase button size on hover */
+}

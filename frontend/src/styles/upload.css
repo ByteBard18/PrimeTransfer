@@ -1,0 +1,123 @@
+/* Background and page layout */
+.upload-page {
+    background-color:  rgba(55, 174, 8, 0.725);
+    padding: 40px;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Upload form styling */
+.upload-section {
+    background-color:  rgb(209, 209, 209);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.upload-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-section form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.upload-section input, 
+.upload-section textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.upload-section button {
+    padding: 10px 20px;
+    background-color: rgb(9, 182, 32);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upload-section button:hover {
+    background-color: rgb(73, 255, 1);
+}
+
+/* Cards section styling */
+.cards-section {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.cards-section h2 {
+    margin-bottom: 20px;
+}
+
+.cards-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.upload-card {
+    position: relative;
+    background-color: rgb(209, 209, 209); /* Initial background color */
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.4s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.upload-card:hover {
+    background-color: #28a745; /* Green background on hover */
+    transform: translateY(-5px); /* Lifts the card slightly on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.upload-card h3
+{
+    text-transform: capitalize;
+}
+.upload-card h3, 
+.upload-card p, 
+.upload-card button {
+    transition: color 0.4s ease; /* Smooth transition for text/button color */
+}
+
+.upload-card:hover h3, 
+.upload-card:hover p {
+    color: black; /* Text turns white on hover for contrast */
+}
+
+/* Red delete button */
+.upload-card button {
+    padding: 8px 15px;
+    background-color: #d00217;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(220, 53, 69, 0.4);
+}
+
+.upload-card button:hover {
+    background-color: #ff0000;
+    box-shadow: 0 6px 15px rgba(220, 53, 69, 0.6);
+}

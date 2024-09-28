@@ -1,0 +1,110 @@
+/* General Styling */
+.downloads-section {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    min-height: 100vh;
+    color: #2d2d2d; /* Dark text */
+}
+
+/* Search Section */
+.downloads-search-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.downloads-search-container input {
+    padding: 10px;
+    border: 1px solid #28a745; /* Green border */
+    border-radius: 50px;
+    width: 100%;
+    background-color: #f9f9f9; /* Light background for input */
+    color: #2d2d2d; /* Dark text */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.downloads-search-container input:focus {
+    border-color: #218838; /* Darker green on focus */
+    background-color: #ffffff; /* White background on focus */
+    outline: none;
+}
+
+/* Cards Section */
+.downloads-cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.downloads-card {
+    background-color: #f9f9f9; /* Light card background */
+    border: 1px solid #28a745; /* Green border */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.downloads-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(40, 167, 69, 0.4); /* Shadow effect on hover */
+}
+
+.downloads-card h3 {
+    color: #28a745; /* Green title */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.downloads-card p {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    color: #2d2d2d; /* Darker text for better contrast */
+}
+
+.downloads-card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Download Button */
+.downloads-btn {
+    padding: 8px 15px;
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.downloads-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3); /* Subtle shadow */
+}
+
+/* Delete Button */
+.downloads-delete-btn {
+    padding: 8px 15px;
+    background-color: #dc3545; /* Red background for delete */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.downloads-delete-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.downloads-delete-btn img {
+    width: 15px;
+    height: 15px;
+}

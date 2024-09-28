@@ -1,0 +1,48 @@
+/* About page container */
+.about-c
+{
+    background-color: rgba(55, 174, 8, 0.725); /* Green background */
+}
+.about-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+.about-container h1, .about-container h2 {
+    color: rgba(55, 174, 8, 0.725); 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.about-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Unordered list styles */
+.about-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-container ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Strong text styling */
+.about-container strong {
+    color: #28a745;
+    font-weight: bold;
+}

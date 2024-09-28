@@ -1,0 +1,100 @@
+.landing-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.header p {
+  font-size: 1.5em;
+}
+
+.cta-button {
+  background-color: white;
+  color: #4CAF50;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-image {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.cta-button:hover {
+  background-color: #e6ece7;
+
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 20px;
+}
+
+.feature {
+  width: 15%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.feature img {
+  width: 100%; /* Ensure the image takes the full width of the feature card */
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio, cover the entire area */
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 15px;
+}
+
+.feature h2 {
+  color: #4CAF50;
+  margin-top: 0;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-top: 50px;
+}
+.statistics {
+  background-color: #e0f7fa;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.stat {
+  width: 25%;
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #4CAF50;
+}
+
+.stat p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  color: #555;
+}
