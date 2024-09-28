@@ -98,7 +98,7 @@ AWS for hosting the Django server and file storage.
 1.  **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/your-repo-url.git
+    git clone https://github.com/ByteBard18/PrimeTransfer.git
     ```
 
 2.  **Frontend Setup**:
